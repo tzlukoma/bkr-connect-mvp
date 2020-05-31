@@ -1,285 +1,343 @@
 .m-1 {
-	margin: 1rem;
+  margin: 1rem;
 }
 
 .my-1 {
-	margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .mx-1 {
-	margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .p-1 {
-	padding: 1rem;
+  padding: 1rem;
 }
 
 .py-1 {
-	padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 .px-1 {
-	padding: 0 1rem;
+  padding: 0 1rem;
 }
 
 .m-2 {
-	margin: 2rem;
+  margin: 2rem;
 }
 
 .my-2 {
-	margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .mx-2 {
-	margin: 0 2rem;
+  margin: 0 2rem;
 }
 
 .p-2 {
-	padding: 2rem;
+  padding: 2rem;
 }
 
 .py-2 {
-	padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .px-2 {
-	padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 .m-3 {
-	margin: 3rem;
+  margin: 3rem;
 }
 
 .my-3 {
-	margin: 3rem 0;
+  margin: 3rem 0;
 }
 
 .mx-3 {
-	margin: 0 3rem;
+  margin: 0 3rem;
 }
 
 .p-3 {
-	padding: 3rem;
+  padding: 3rem;
 }
 
 .py-3 {
-	padding: 3rem 0;
+  padding: 3rem 0;
 }
 
 .px-3 {
-	padding: 0 3rem;
+  padding: 0 3rem;
 }
 
 .m-4 {
-	margin: 4rem;
+  margin: 4rem;
 }
 
 .my-4 {
-	margin: 4rem 0;
+  margin: 4rem 0;
 }
 
 .mx-4 {
-	margin: 0 4rem;
+  margin: 0 4rem;
 }
 
 .p-4 {
-	padding: 4rem;
+  padding: 4rem;
 }
 
 .py-4 {
-	padding: 4rem 0;
+  padding: 4rem 0;
 }
 
 .px-4 {
-	padding: 0 4rem;
+  padding: 0 4rem;
 }
 
 .m-5 {
-	margin: 5rem;
+  margin: 5rem;
 }
 
 .my-5 {
-	margin: 5rem 0;
+  margin: 5rem 0;
 }
 
 .mx-5 {
-	margin: 0 5rem;
+  margin: 0 5rem;
 }
 
 .p-5 {
-	padding: 5rem;
+  padding: 5rem;
 }
 
 .py-5 {
-	padding: 5rem 0;
+  padding: 5rem 0;
 }
 
 .px-5 {
-	padding: 0 5rem;
+  padding: 0 5rem;
 }
 
 .container {
-	max-width: 1100px;
-	margin: auto;
-	overflow: hidden;
-	padding: 0 2rem;
-	margin-top: 6rem;
-	margin-bottom: 3rem;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
 }
 
 .x-large {
-	font-size: 4rem;
-	line-height: 1.2;
-	margin-bottom: 1rem;
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
 }
 
 .large {
-	font-size: 3rem;
-	line-height: 1.2;
-	margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
 }
 
 .lead {
-	font-size: 1.5rem;
-	margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .text-primary {
-	color: #b5838d;
+  color: #b5838d;
 }
 
 .bg-primary {
-	background-color: #b5838d;
-	color: #fff;
+  background-color: #b5838d;
+  color: #fff;
 }
 
 .bg-light {
-	background-color: #f4f4f4;
-	color: #333;
-	border: #ccc 1px solid;
+  background-color: #f4f4f4;
+  color: #333;
+  border: #ccc 1px solid;
 }
 
 .bg-dark {
-	background-color: #4e393d;
-	color: #fff;
+  background-color: #4e393d;
+  color: #fff;
 }
 
 .bg-success {
-	background-color: #7fd0b9;
-	color: #fff;
+  background-color: #7fd0b9;
+  color: #fff;
 }
 
 .bg-danger {
-	background-color: #ee67a9;
-	color: #fff;
+  background-color: #ee67a9;
+  color: #fff;
 }
 
 .bg-white {
-	background-color: #fff;
-	color: #333;
-	border: #ccc 1px solid;
+  background-color: #fff;
+  color: #333;
+  border: #ccc 1px solid;
 }
 
 .btn {
-	display: inline-block;
-	background: #f4f4f4;
-	color: #333;
-	padding: 0.4rem 1.3rem;
-	border: none;
-	cursor: pointer;
-	font-size: 1rem;
-	margin-right: 0.5rem;
-	outline: none;
-	-webkit-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
+  display: inline-block;
+  background: #f4f4f4;
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.2s ease-in;
 }
 
 .btn.btn-primary {
-	background-color: #b5838d;
-	color: #fff;
+  background-color: #b5838d;
+  color: #fff;
 }
 
 .btn.btn-primary:hover {
-	background: #bf939c;
+  background: #bf939c;
 }
 
 .btn.btn-dark {
-	background-color: #4e393d;
-	color: #fff;
+  background-color: #4e393d;
+  color: #fff;
 }
 
 .btn.btn-dark:hover {
-	background: #5d4449;
+  background: #5d4449;
 }
 
 .btn.btn-success {
-	background-color: #7fd0b9;
-	color: #fff;
+  background-color: #7fd0b9;
+  color: #fff;
 }
 
 .btn.btn-success:hover {
-	background: #92d7c3;
+  background: #92d7c3;
 }
 
 .btn.btn-danger {
-	background-color: #ee67a9;
-	color: #fff;
+  background-color: #ee67a9;
+  color: #fff;
 }
 
 .btn.btn-danger:hover {
-	background: #f17eb6;
+  background: #f17eb6;
 }
 
 .btn:hover {
-	background: #89646b;
-	color: #fff;
+  background: #89646b;
+  color: #fff;
 }
 
 .alert {
-	padding: 0.8rem;
-	margin: 1rem;
-	opacity: 0.9;
-	background: #f4f4f4;
-	color: #333;
+  padding: 0.8rem;
+  margin: 1rem;
+  opacity: 0.9;
+  background: #f4f4f4;
+  color: #333;
 }
 
 .alert.alert-primary {
-	background-color: #b5838d;
-	color: #fff;
+  background-color: #b5838d;
+  color: #fff;
 }
 
 .alert.alert-dark {
-	background-color: #4e393d;
-	color: #fff;
+  background-color: #4e393d;
+  color: #fff;
 }
 
 .alert.alert-success {
-	background-color: #7fd0b9;
-	color: #fff;
+  background-color: #7fd0b9;
+  color: #fff;
 }
 
 .alert.alert-danger {
-	background-color: #ee67a9;
-	color: #fff;
+  background-color: #ee67a9;
+  color: #fff;
 }
 
 .dark-overlay {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card {
+  display: flex;
+  margin: 1rem auto;
+  font-size: 0.75rem;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.6%;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  color: black;
+  z-index: 0;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card:hover {
+  background: #f4f4f4;
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.card-content {
+  padding: 0.8rem;
+}
+
+.card .book-title {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  min-height: 3rem;
+}
+
+.card .book-price {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card .stock-tag {
+  color: white;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+
+.card .in-stock {
+  background: green;
+}
+
+.card .sold-out {
+  background: red;
+}
+
+.card img {
+  max-width: 40%;
+  object-fit: cover;
 }
 
 .form-group {
-	margin: 1.2rem 0;
+  margin: 1.2rem 0;
 }
 
 .form-text {
-	display: block;
-	margin-top: 0.3rem;
-	color: #888;
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
 }
 
 .form input[type="text"],
@@ -288,99 +346,194 @@
 .form input[type="date"],
 .form select,
 .form textarea {
-	display: block;
-	width: 100%;
-	padding: 0.4rem;
-	font-size: 1.2rem;
-	border: 1px solid #ccc;
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.form textarea {
+  min-height: 6rem;
+}
+
+.form .select-dropdown {
+  position: relative;
+  background-color: #f4f4f4;
+  width: 100%;
+  float: left;
+  max-width: 100%;
+  border-radius: 2px;
+  padding: 0px 10px;
+}
+
+.form .select-dropdown select {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 200;
+  max-width: 100%;
+  padding: 8px 24px 8px 10px;
+  border: none;
+  background-color: transparent;
+  appearance: none;
+}
+
+.form .select-dropdown select:active,
+.form .select-dropdown select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.form .select-dropdown select:after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  margin-top: -2px;
+  right: 6px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #aaa;
+}
+
+.grid-search-area {
+  display: grid;
+  grid-template-columns: 4fr 1fr 2fr 3fr;
+  grid-gap: 1rem;
+}
+
+.grid-book-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.grid-book-form {
+  display: grid;
+  grid-template-areas: "name name name author author author img img" "gender gender age age sku sku img img " "retail desc desc desc desc desc img img " "sale desc desc desc desc desc img img" "upload upload . . . . . ." "inventory-btn inventory-btn . . . . . . ";
+  grid-column-gap: 1rem;
+}
+
+.grid-book-form .book-name {
+  grid-area: name;
+}
+
+.grid-book-form .book-author {
+  grid-area: author;
+}
+
+.grid-book-form .book-gender {
+  grid-area: gender;
+}
+
+.grid-book-form .book-age {
+  grid-area: age;
+}
+
+.grid-book-form .book-sku {
+  grid-area: sku;
+}
+
+.grid-book-form .book-retail {
+  grid-area: retail;
+}
+
+.grid-book-form .book-sale {
+  grid-area: sale;
+}
+
+.grid-book-form .book-desc {
+  grid-area: desc;
+}
+
+.grid-book-form .book-image {
+  grid-area: img;
+}
+
+.grid-book-form .book-image img {
+  max-width: 20rem;
+}
+
+.grid-book-form .book-image-upload {
+  grid-area: upload;
+  height: fit-content;
+}
+
+.grid-book-form .book-inventory-btn {
+  grid-area: inventory-btn;
 }
 
 * {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-	font-family: "Montserrat", sans-serif;
-	font-size: 1.1rem;
-	line-height: 1.8;
-	background-color: #fff;
-	color: #333;
+body,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  background-color: #fff;
+  color: #333;
 }
 
 a {
-	text-decoration: none;
-	color: #b5838d;
+  text-decoration: none;
+  color: #b5838d;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 img {
-	width: 100%;
+  width: 100%;
 }
 
 .navbar {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-	padding: 0.7rem 2rem;
-	position: fixed;
-	z-index: 1;
-	width: 100%;
-	top: 0;
-	border-bottom: solid 1px #b5838d;
-	opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  border-bottom: solid 1px #b5838d;
+  opacity: 0.9;
 }
 
 .navbar ul {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+  display: flex;
 }
 
 .navbar a {
-	color: #fff;
-	padding: 0.45rem;
-	margin: 0 0.25rem;
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
 }
 
 .navbar a:hover {
-	color: #b5838d;
+  color: #b5838d;
 }
 
 .landing {
-	position: relative;
-	background: url("./img/showcase.svg") no-repeat center center/cover;
-	height: 100vh;
+  position: relative;
+  background: url("./img/showcase.svg") no-repeat center center/cover;
+  height: 100vh;
 }
 
 .landing-inner {
-	color: #fff;
-	height: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	width: 80;
-	margin: auto;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	text-align: center;
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 80;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
