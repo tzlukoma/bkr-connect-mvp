@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transactions",
+  "info": {
+    "name": "transaction"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "transaction_id": {
+      "type": "string",
+      "unique": true
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

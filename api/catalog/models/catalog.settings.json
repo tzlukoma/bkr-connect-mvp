@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catalogs",
+  "info": {
+    "name": "catalog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "sku": {
+      "type": "string",
+      "unique": true
+    },
+    "item_name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "variation_name": {
+      "type": "string"
+    },
+    "option_value_1": {
+      "type": "string"
+    },
+    "stock_alert_enabled": {
+      "type": "string"
+    },
+    "stock_alert": {
+      "type": "string"
+    },
+    "nj_sales_tax": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "current_quantity_brown_kids_read": {
+      "type": "decimal"
+    },
+    "new_quantity_brown_kids_read": {
+      "type": "decimal"
+    }
+  }
+}

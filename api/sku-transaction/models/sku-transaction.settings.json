@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sku_transactions",
+  "info": {
+    "name": "sku-transaction"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "time_zone": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "item": {
+      "type": "string"
+    },
+    "gross_sales": {
+      "type": "string"
+    },
+    "discounts": {
+      "type": "string"
+    },
+    "net_sales": {
+      "type": "string"
+    },
+    "payment_id": {
+      "type": "string"
+    },
+    "details": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "transaction_id": {
+      "type": "string",
+      "unique": false
+    },
+    "sku": {
+      "type": "string"
+    },
+    "sku_transaction_combo": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
